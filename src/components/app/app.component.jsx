@@ -14,7 +14,7 @@ export const App = ( props ) => {
                 className='profile__increment__button'
                 onClick={ () => setCount( count + 1 ) }
                 disabled={ count === 3 }
-            >Increment</button>
+            >Increment </button>
         </div>
     );
 };
