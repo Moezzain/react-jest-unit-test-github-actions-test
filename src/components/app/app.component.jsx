@@ -4,7 +4,7 @@ import React, { useState } from 'react';
  * @desc Export App component
  */
 export const App = ( props ) => {
-    const [ count, setCount ] = useState( 0 );
+    const [ count, setCount ] = useState( 1 );
 
     return (
         <div className='profile'>
